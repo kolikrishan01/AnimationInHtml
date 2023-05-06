@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background-color: #000;
+    }
+    .rain-drop{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        position: absolute;
+        top: -50px;
+       
+    }
+    .rain-drop img{
+        width: 50px;
+        height: auto;
+        animation: raindrop 1.5s linear infinite;
+    }
+    @keyframes raindrop{
+        0% {
+        transform: translateY(0);
+        opacity: 1;
+      }
+      50% {
+        opacity: .7;
+      }
+      70% {
+        opacity: .9;
+      }
+      100% {
+        transform: translateY(100vh);
+        opacity: 0;
+      }
+    }
+    .rain-drop img:nth-child(1){
+        animation-delay: 2s;
+        width: 20px;
+    }
+    .rain-drop img:nth-child(2){
+        animation-delay: 3s;
+    }
+    .rain-drop img:nth-child(3){
+        animation-delay: 4.5s;
+    }
+    .rain-drop img:nth-child(4){
+        animation-delay: 1.5s;
+        width: 30px;
+    }
+    .rain-drop img:nth-child(5){
+        animation-delay: 5.1s;
+    }
+    .rain-drop img:nth-child(6){
+        animation-delay: 6s;
+    }
+    .rain-drop img:nth-child(7){
+        animation-delay: 9s;
+    }
+    .rain-drop img:nth-child(8){
+        animation-delay: 3.9s;
+        width: 25px;
+    }
+    .rain-drop img:nth-child(9){
+        animation-delay: 4.4s;
+    }
+    .rain-drop img:nth-child(10){
+        animation-delay: 2.3s;
+    }
+    .rain-drop img:nth-child(11){
+        animation-delay: 5.6s;
+        width: 38px;
+    }
+    .rain-drop img:nth-child(12){
+        animation-delay: 6.4s;
+    }
+    .rain-drop img:nth-child(13){
+        animation-delay: 7.2s;
+    }
+    .rain-drop img:nth-child(14){
+        animation-delay: 4.7s;
+    }
+    .rain-drop img:nth-child(15){
+        animation-delay: 1.9s;
+        width: 20px;
+    }
+    .rain-drop img:nth-child(16){
+        animation-delay: 3.3s;
+        width: 25px;
+    }
+</style>
+<body>
+    <div class="rain-drop">
+       
+        <img src="raindrop.png">
+        <img src="raindrop.png">
+        <img src="raindrop.png">
+        <img src="raindrop.png">
+        <img src="raindrop.png">
+        <img src="raindrop.png">
+        <img src="raindrop.png">
+        <img src="raindrop.png">
+        <img src="raindrop.png">
+        <img src="raindrop.png">
+        <img src="raindrop.png">
+        <img src="raindrop.png">
+        <img src="raindrop.png">
+        <img src="raindrop.png">
+        <img src="raindrop.png">
+        <img src="raindrop.png">
+    </div>
+</body>
+</html>
